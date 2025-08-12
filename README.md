@@ -22,7 +22,7 @@ All software, hardware design files, and documentation in this repository are li
 - **Attribution** — you must give appropriate credit, provide a link to the license, and indicate if changes were made.
 - **NonCommercial** — you may not use the material for commercial purposes without prior written permission.
 
-For commercial licensing inquiries, contact: **[your-email@example.com]**
+For commercial licensing inquiries, contact: **[sviluppo@tomorrowtech.it]**
 
 ## 📂 Repository Structure
 /hardware           # CAD files, schematics, PCB layouts
