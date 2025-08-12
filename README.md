@@ -25,10 +25,11 @@ All software, hardware design files, and documentation in this repository are li
 For commercial licensing inquiries, contact: **[sviluppo@tomorrowtech.it]**
 
 ## 📂 Repository Structure
-/hardware           # CAD files, schematics, PCB layouts
-/software           # Firmware, API examples, utilities
-/specs              # Electrical and mechanical specifications
-/docs               # Documentation and guides
+- **`/hardware`** — CAD files, schematics, PCB layouts.  
+- **`/software`** — Firmware, API examples, and utilities.  
+- **`/specs`** — Electrical and mechanical specifications.  
+- **`/docs`** — Documentation and integration guides.
+  
 ## 🚀 Getting Started
 1. **Review the specifications** in `/specs`.
 2. **Explore the hardware** designs and adapt them to your robot.
