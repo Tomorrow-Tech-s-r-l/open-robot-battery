@@ -1,8 +1,7 @@
 # ⚡ Open Robot Battery (LANDER)
 
-!<p align="center">
-  <img src="https://amperry.me/wp-content/themes/amperry/img/logo-full.svg#gh-dark-mode-only" alt="Amperry Logo" width="400" style="background:black;padding:20px;"/>
-</p>
+![Amperry Logo](amperry_open_robot_battery.png) 
+
 *An open-source power delivery module for makers and robotics, powered by Amperry powerbanks.*
 
 ---
