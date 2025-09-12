@@ -1,45 +1,102 @@
-# Open Robot Battery
+# ⚡ Open Robot Battery (LANDER)
 
-**Open Robot Battery** is an open standard for **modular, swappable robot batteries**, designed to make robotics power systems interoperable, easy to integrate, and adaptable to different platforms.  
-It combines **hardware specifications**, **integration guidelines**, and **reference tools** to help makers, researchers, and educators build robotics systems with a shared, well-documented power interface.
-
-## 🌟 Project Vision
-Robotics projects often suffer from incompatible power systems.  
-The **Open Robot Battery** standard provides:
-- **Modular battery designs** that can be easily swapped between robots.
-- **Open electrical & mechanical specifications** for broad compatibility.
-- **Reference firmware & APIs** for monitoring and control.
-- **Integration guides** for charging stations and onboard systems.
-
-## 📜 License
-All software, hardware design files, and documentation in this repository are licensed under **Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)**.
-
-### You are free to:
-- **Share** — copy and redistribute the material in any medium or format.
-- **Adapt** — remix, transform, and build upon the material.
-
-### Under the following terms:
-- **Attribution** — you must give appropriate credit, provide a link to the license, and indicate if changes were made.
-- **NonCommercial** — you may not use the material for commercial purposes without prior written permission.
-
-For commercial licensing inquiries, contact: **[sviluppo@tomorrowtech.it]**
-
-## 📂 Repository Structure
-- **`/hardware`** — CAD files, schematics, PCB layouts.  
-- **`/software`** — Firmware, API examples, and utilities.  
-- **`/specs`** — Electrical and mechanical specifications.  
-- **`/docs`** — Documentation and integration guides.
-  
-## 🚀 Getting Started
-1. **Review the specifications** in `/specs`.
-2. **Explore the hardware** designs and adapt them to your robot.
-3. **Test the reference software** to integrate monitoring and control.
-4. **Share your improvements** with the community.
-
-## 💌 Contributing
-We welcome contributions that align with the **Open Robot Battery** vision.  
-By contributing, you agree that your contributions will also be licensed under **CC BY-NC 4.0**.
+!<p align="center">
+  <img src="https://amperry.me/wp-content/themes/amperry/img/logo-full.svg#gh-dark-mode-only" alt="Amperry Logo" width="400" style="background:black;padding:20px;"/>
+</p>
+*An open-source power delivery module for makers and robotics, powered by Amperry powerbanks.*
 
 ---
 
-© 2025 Tomorrow Tech s.r.l. — Open Robot Battery Project
+## 📖 Introduction
+
+The **Open Robot Battery** (codename **LANDER**) is an open-source hardware module designed to power up robots, IoT devices, drones, and prototypes.  
+
+It works with **Amperry powerbanks**, which are charged inside Amperry stations, and provides makers, startups, and research labs with a flexible, safe, and modular way to bring portable energy into their projects.  
+
+> ⚠️ **Important**: To use LANDER you need an **Amperry-compatible powerbank**, which must be purchased together with an Amperry station. The LANDER module is open-source, but the powerbanks remain proprietary.
+
+---
+
+## 🚀 Features
+
+- ✅ Open hardware design for makers, startups, and research labs  
+- ✅ Modular connection system (pogo pins, solenoid lock)  
+- ✅ Flexible output: USB-C PD, robotics connectors (XT30/XT60), barrel jacks, etc.  
+- ✅ Adaptable form factor – attach to robots, kiosks, IoT devices  
+- ✅ Safe and tested with Amperry powerbanks  
+
+---
+
+## 🔌 How It Works
+[ Amperry Station ] → [ Powerbank ] → [ LANDER Module ] → [ Your Device ]
+
+1. Powerbanks are charged inside the **Amperry station**.  
+2. The charged powerbank is docked into the **LANDER module**.  
+3. LANDER adapts the energy and delivers it to your device via your preferred connector.  
+
+---
+
+## 📦 Hardware Requirements
+
+- **Required**: Amperry powerbank (purchase with a station from [Amperry](https://amperry.me))  
+- Supported power levels:  
+  - 5V (USB devices, IoT sensors)  
+  - 12V (embedded boards, routers)  
+  - 20V (robots, laptops, drones)  
+- Connectors: USB-C PD, XT60, barrel jack, GPIO headers (customizable)  
+
+---
+
+## 🛠 Getting Started
+
+1. Order an **Amperry powerbank + station**.  
+2. Clone/download this repository.  
+3. Access the **CAD files, schematics, and documentation**.  
+4. Build or 3D-print the LANDER module.  
+5. Add the connectors your project requires.  
+6. Plug in your powerbank and start powering your device.  
+
+---
+
+## 💡 Example Use Cases
+
+- 🤖 Robotics platforms and mobile robots  
+- 🚁 Drones and UAVs  
+- 🌐 IoT devices and field instruments  
+- 🏫 University labs and prototyping kits  
+- 🖥 Portable kiosks and installations  
+
+---
+
+## 📜 License & Usage Rules
+
+- LANDER is released as **open-source hardware** (license: [CC BY-NC-SA]).  
+- **Restrictions**:  
+  - The **Amperry powerbank hardware is proprietary** and must be purchased from Amperry.  
+  - Usage in **powerbank rental systems** is exclusive to Amperry.  
+  - Usage in **defense or weapons applications** requires prior approval and a special license.  
+
+---
+
+## 🤝 Contributing
+
+We welcome contributions!  
+- Submit issues for bugs, ideas, or feature requests.  
+- Open pull requests with improvements (new connector types, casing designs, documentation).  
+- Share your projects built with LANDER in the community.  
+
+---
+
+## 🌍 Community & Contact
+
+- 🌐 Website: [https://amperry.me](https://amperry.me)  
+- ✉️ Email: sviluppo@tomorrowtech.it  
+
+---
+
+## 📷 Gallery
+
+![Station + Powerbank + LANDER](docs/images/demo.jpg)  
+*Example setup of Amperry station, powerbank, and LANDER powering a robot.*  
+
+---
