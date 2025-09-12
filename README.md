@@ -1,6 +1,6 @@
 # ⚡ Open Robot Battery (LANDER)
 
-![Amperry Logo](amperry_open_robot_battery.png) 
+![Amperry Logo](hardware/images/amperry_open_robot_battery.png) 
 
 *An open-source power delivery module for makers and robotics, powered by Amperry powerbanks.*
 
@@ -50,10 +50,24 @@ It works with **Amperry powerbanks**, which are charged inside Amperry stations,
 
 1. Order an **Amperry powerbank + station**.  
 2. Clone/download this repository.  
-3. Access the **CAD files, schematics, and documentation**.  
+3. Access the **hardware files** in the `hardware/` folder:
+   - Review the **schematics** (`hardware/schematics/LANDER-schematics.pdf`)
+   - Check the **BOM** (`hardware/bom/LANDER-BOM.xlsx`) for component sourcing
+   - Download **gerber files** (`hardware/gerber/LANDER-gerber-files.zip`) for PCB manufacturing
+   - Use **CAD files** (`hardware/cad/LANDER-CAD-files.zip`) for mechanical design
 4. Build or 3D-print the LANDER module.  
 5. Add the connectors your project requires.  
-6. Plug in your powerbank and start powering your device.  
+6. Plug in your powerbank and start powering your device.
+
+## 📋 Documentation
+
+- **[Technical Manual](MANUAL.md)** - Complete technical documentation including assembly instructions, safety warnings, and usage guidelines
+- **[Hardware Files](hardware/)** - All hardware design files organized by type:
+  - **[Schematics](hardware/schematics/)** - Electrical schematics in PDF format
+  - **[Gerber Files](hardware/gerber/)** - PCB manufacturing files
+  - **[Bill of Materials](hardware/bom/)** - Complete BOM in Excel format
+  - **[CAD Files](hardware/cad/)** - 3D mechanical models and STL files
+  - **[Images](hardware/images/)** - Project images and diagrams  
 
 ---
 
@@ -95,7 +109,7 @@ We welcome contributions!
 
 ## 📷 Gallery
 
-![Station + Powerbank + LANDER](docs/images/demo.jpg)  
+![Station + Powerbank + LANDER](hardware/images/demo.jpg)  
 *Example setup of Amperry station, powerbank, and LANDER powering a robot.*  
 
 ---

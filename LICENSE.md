@@ -9,7 +9,7 @@ You are free to:
 
 Under the following terms:
 - **Attribution** — You must give appropriate credit, provide a link to the license, and indicate if changes were made.
-- **NonCommercial** — You may not use the material for commercial purposes without prior written permission from Francesco Vezzani.
+- **NonCommercial** — You may not use the material for commercial purposes without prior written permission from Tomorrow Tech s.r.l.
 
 ## Full License Text
 The full legal text of the CC BY-NC 4.0 license is available here:  
