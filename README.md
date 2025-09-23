@@ -1,18 +1,24 @@
-# ⚡ Open Robot Battery (LANDER)
+# ⚡ Open Robot Battery (ORB)
 
 ![Amperry Logo](hardware/images/amperry_open_robot_battery.png) 
 
 *An open-source power delivery module for makers and robotics, powered by Amperry powerbanks.*
 
+![Humanoid Robot with ORB](hardware/images/ORB-humanoid.png)  
+*Humanoid robot powered by the ORB module.*
+
+![Four-wheeled Warehouse Robot with ORB](hardware/images/ORB-four-wheeled-warehouse-robot.png)  
+*Four-wheeled warehouse robot with ORB battery module.*
+
 ---
 
 ## 📖 Introduction
 
-The **Open Robot Battery** (codename **LANDER**) is an open-source hardware module designed to power up robots, IoT devices, drones, and prototypes.  
+The **Open Robot Battery** (codename **ORB**) is an open-source hardware module designed to power up robots, IoT devices, drones, and prototypes.  
 
 It works with **Amperry powerbanks**, which are charged inside Amperry stations, and provides makers, startups, and research labs with a flexible, safe, and modular way to bring portable energy into their projects.  
 
-> ⚠️ **Important**: To use LANDER you need an **Amperry-compatible powerbank**, which must be purchased together with an Amperry station. The LANDER module is open-source, but the powerbanks remain proprietary.
+> ⚠️ **Important**: To use ORB you need an **Amperry-compatible powerbank**, which must be purchased together with an Amperry station. The ORB module is open-source, but the powerbanks remain proprietary.
 
 ---
 
@@ -27,11 +33,11 @@ It works with **Amperry powerbanks**, which are charged inside Amperry stations,
 ---
 
 ## 🔌 How It Works
-[ Amperry Station ] → [ Powerbank ] → [ LANDER Module ] → [ Your Device ]
+[ Amperry Station ] → [ Powerbank ] → [ ORB Module ] → [ Your Device ]
 
 1. Powerbanks are charged inside the **Amperry station**.  
-2. The charged powerbank is docked into the **LANDER module**.  
-3. LANDER adapts the energy and delivers it to your device via your preferred connector.  
+2. The charged powerbank is docked into the **ORB module**.  
+3. ORB adapts the energy and delivers it to your device via your preferred connector.  
 
 ---
 
@@ -51,11 +57,11 @@ It works with **Amperry powerbanks**, which are charged inside Amperry stations,
 1. Order an **Amperry powerbank + station**.  
 2. Clone/download this repository.  
 3. Access the **hardware files** in the `hardware/` folder:
-   - Review the **schematics** (`hardware/schematics/LANDER-schematics.pdf`)
-   - Check the **BOM** (`hardware/bom/LANDER-BOM.xlsx`) for component sourcing
-   - Download **gerber files** (`hardware/gerber/LANDER-gerber-files.zip`) for PCB manufacturing
-   - Use **CAD files** (`hardware/cad/LANDER-CAD-files.zip`) for mechanical design
-4. Build or 3D-print the LANDER module.  
+   - Review the **schematics** (`hardware/schematics/ORB-schematics.pdf`)
+   - Check the **BOM** (`hardware/bom/ORB-BOM.xlsx`) for component sourcing
+   - Download **gerber files** (`hardware/gerber/ORB-gerber-files.zip`) for PCB manufacturing
+   - Use **CAD files** (`hardware/cad/ORB-CAD-files.zip`) for mechanical design
+4. Build or 3D-print the ORB module.  
 5. Add the connectors your project requires.  
 6. Plug in your powerbank and start powering your device.
 
@@ -83,7 +89,7 @@ It works with **Amperry powerbanks**, which are charged inside Amperry stations,
 
 ## 📜 License & Usage Rules
 
-- LANDER is released as **open-source hardware** (license: [CC BY-NC-SA]).  
+- ORB is released as **open-source hardware** (license: [CC BY-NC-SA]).  
 - **Restrictions**:  
   - The **Amperry powerbank hardware is proprietary** and must be purchased from Amperry.  
   - Usage in **powerbank rental systems** is exclusive to Amperry.  
@@ -96,7 +102,7 @@ It works with **Amperry powerbanks**, which are charged inside Amperry stations,
 We welcome contributions!  
 - Submit issues for bugs, ideas, or feature requests.  
 - Open pull requests with improvements (new connector types, casing designs, documentation).  
-- Share your projects built with LANDER in the community.  
+- Share your projects built with ORB in the community.  
 
 ---
 
@@ -109,7 +115,7 @@ We welcome contributions!
 
 ## 📷 Gallery
 
-![Station + Powerbank + LANDER](hardware/images/demo.jpg)  
-*Example setup of Amperry station, powerbank, and LANDER powering a robot.*  
+![Station + Powerbank + ORB](hardware/images/demo.jpg)  
+*Example setup of Amperry station, powerbank, and ORB powering a robot.*  
 
 ---
