@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: C:\Users\Public\Documents\Altium\Amperry_2_module_powerbank\amperryPOC_panel.PcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=amperrypoc_panel.txt|DrillLayers=gtl,gbl
+LayersSetName=Top_Bot_Rect_Holes|DrillFile=amperrypoc_panel-rectholes.txt|DrillLayers=gtl,gbl

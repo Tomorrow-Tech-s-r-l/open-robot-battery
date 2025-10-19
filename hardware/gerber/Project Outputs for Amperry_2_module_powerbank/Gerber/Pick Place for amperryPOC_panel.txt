@@ -1,0 +1,88 @@
+Altium Designer Pick and Place Locations
+C:\Users\Public\Documents\Altium\Amperry_2_module_powerbank\Project Outputs for Amperry_2_module_powerbank\Gerber\Pick Place for amperryPOC_panel.txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       15/10/25
+Time:       14:05
+Revision:   Not in VersionControl
+Variant:    No variations
+Units used: mil
+
+Designator Comment                Layer       Footprint                          Center-X(mil) Center-Y(mil) Rotation Description                                                                      
+C13        100n                   TopLayer    cap_1206                           2590.551      4200.551      270      ""                                                                               
+J6         215931-0270            BottomLayer 2159310270                         1113.504      3134.095      90       Connector                                                                        
+C12        EEE-FT1V561AP          BottomLayer EEE0JA152UAP                       2844.894      2460.551      270      "Capacitor Polarised"                                                            
+C11        EEE-FT1V561AP          BottomLayer EEE0JA152UAP                       2070.551      2480.551      90       "Capacitor Polarised"                                                            
+C10        EEE-FT1V561AP          BottomLayer EEE0JA152UAP                       2093.378      3043.628      0        "Capacitor Polarised"                                                            
+C5         EEE-FT1V561AP          BottomLayer EEE0JA152UAP                       1010.551      2480.551      90       "Capacitor Polarised"                                                            
+IC1        "XL6009 boost module"  BottomLayer PCBComponent_1                     1503.041      4258.051      0        ""                                                                               
+R28        1k                     TopLayer    res_1206                           3385.701      6087.087      0        ""                                                                               
+LED2       APHCM2012CGCK-F01      TopLayer    LEDC2012X50N                       3150.551      6090.552      180      LED                                                                              
+R6         "2.4k 1%"              TopLayer    res_1206                           3390.532      5947.087      0        ""                                                                               
+J5         1714955                TopLayer    1714955                            3660.551      3305.551      90       Connector                                                                        
+J4         24.243.4               TopLayer    242434                             3615.669      2250.551      180      Connector                                                                        
+J3         24.243.1               TopLayer    242431                             3615.669      2740.551      180      Connector                                                                        
+R27        "5.1k 1%"              TopLayer    res_1206                           3320.996      5510.394      270      ""                                                                               
+R26        "5.1k 1%"              TopLayer    res_1206                           2490.996      2630.394      270      ""                                                                               
+R25        NC                     TopLayer    res_1206                           2660.394      2580.106      180      ""                                                                               
+R24        NC                     TopLayer    res_1206                           3440.106      5510.708      90       ""                                                                               
+R23        NC                     TopLayer    res_1206                           2660.708      2690.996      0        ""                                                                               
+R22        0R                     TopLayer    res_1206                           2750.394      2370.106      180      ""                                                                               
+R21        NC                     TopLayer    res_1206                           2800.996      2200.394      270      ""                                                                               
+R20        "5.1k 1%"              TopLayer    res_1206                           2690.996      2200.394      270      ""                                                                               
+R19        "1.0k 1%"              TopLayer    res_1206                           2580.996      2200.394      270      ""                                                                               
+R18        NC                     TopLayer    res_1206                           3390.106      820.708       90       ""                                                                               
+R17        "5.1k 1%"              TopLayer    res_1206                           3280.106      820.708       90       ""                                                                               
+R16        "2.4k 1%"              TopLayer    res_1206                           3170.106      820.708       90       ""                                                                               
+R15        "1.0k 1%"              TopLayer    res_1206                           3060.106      820.708       90       ""                                                                               
+R14        "5.1k 1%"              TopLayer    res_1206                           2910.106      2200.709      90       ""                                                                               
+R13        0R                     TopLayer    res_1206                           2470.996      2200.394      270      ""                                                                               
+R12        "5.1k 1%"              TopLayer    res_1206                           2820.106      2624.161      90       ""                                                                               
+S6         SLW-1477944-3A-S-D     TopLayer    SLW14779443ASD                     2785.040      1441.102      270      Switch                                                                           
+S1         SLW-1477944-3A-S-D     TopLayer    SLW14779443ASD                     3409.842      1441.102      270      Switch                                                                           
+R11        NC                     TopLayer    res_1206                           3720.106      5480.708      90       ""                                                                               
+R10        NC                     TopLayer    res_1206                           3630.106      5350.708      90       ""                                                                               
+R9         NC                     TopLayer    res_1206                           3500.551      5221.592      90       ""                                                                               
+R8         NC                     TopLayer    res_1206                           3540.996      4860.394      270      ""                                                                               
+LED1       150080SS75000          TopLayer    150080SS75000                      3155.544      5946.641      180      LED                                                                              
+J2         61300711121            TopLayer    HDRV7W64P0X254_1X7_1778X254X869P   4010.551      5140.551      90       Connector                                                                        
+R5         47k                    TopLayer    res_1206                           3370.996      4480.394      270      ""                                                                               
+R4         10k                    TopLayer    res_1206                           3589.449      4040.996      0        ""                                                                               
+R7         0R                     TopLayer    res_1206                           3350.996      3969.252      270      ""                                                                               
+Q2         DMP3007LK3-13          TopLayer    DMP3007LK313                       3701.614      4470.511      270      "MOSFET (P-Channel)"                                                             
+Q1         DMP3007LK3-13          TopLayer    DMP3007LK313                       3703.229      3800.590      270      "MOSFET (P-Channel)"                                                             
+J1         USB4145-03-0070-C      TopLayer    USB4145030070C                     3031.496      3543.307      90       Connector                                                                        
+D4         BZT52C24-E3-08         TopLayer    BZT52C24E308                       3164.054      3169.292      270      "Zener Diode"                                                                    
+D3         BZT52C24-E3-08         TopLayer    BZT52C24E308                       3840.551      4170.552      0        "Zener Diode"                                                                    
+D2         BZT52C15-E3-08         TopLayer    SOD3716X135N                       3250.550      4480.551      90       "Zener Diode"                                                                    
+C9         390p                   TopLayer    cap_1206                           2658.997      3714.573      0        ""                                                                               
+C8         390p                   TopLayer    cap_1206                           2660.551      3620.550      0        ""                                                                               
+C7         1u                     TopLayer    cap_1206                           3120.552      3930.551      90       ""                                                                               
+C6         100n                   TopLayer    cap_1206                           2838.070      3820.550      0        ""                                                                               
+C4         1u                     TopLayer    cap_1206                           2840.551      3920.551      0        ""                                                                               
+C3         1u                     TopLayer    cap_1206                           3320.550      3170.552      90       ""                                                                               
+R3         1k                     TopLayer    res_1206                           3260.708      4120.996      0        ""                                                                               
+IC2        CYPD3177-24LQXQ        TopLayer    QFN50P400X400X60-25N-D             2960.551      4103.543      180      "Integrated Circuit"                                                             
+BTN1       EVQ-P2402W             TopLayer    EVQP2402W                          1590.550      770.551       90       Switch                                                                           
+Q7         SQ2318AES-T1_BE3       TopLayer    SQ2318AES-T1_BE3-Footprint-1       1910.552      1214.461      180      "MOSFET N-CHANNEL 40V (D-S) 8 A SOT-23-3"                                        
+R2         100k                   TopLayer    res_1206                           2270.106      980.709       90       ""                                                                               
+R1         1k                     TopLayer    res_1206                           2020.996      980.394       270      ""                                                                               
+C37        "10u 10V"              TopLayer    cap_1206                           2150.551      980.551       270      ""                                                                               
+Sol1B-     TPH120                 BottomLayer TPH120                             1789.792      1363.701      90       "Testpoint, 120x60mil"                                                           
+Sol1B+     TPH120                 BottomLayer TPH120                             1358.032      1363.702      90       "Testpoint, 120x60mil"                                                           
+Fid3       Fiducial_1mm           TopLayer    Fiducial_1mm-Footprint-1           196.850       196.850       90       "1mm fiducial marker"                                                            
+Fid2       Fiducial_1mm           TopLayer    Fiducial_1mm-Footprint-1           196.850       196.850       90       "1mm fiducial marker"                                                            
+Fid1       Fiducial_1mm           TopLayer    Fiducial_1mm-Footprint-1           196.850       196.850       90       "1mm fiducial marker"                                                            
+S3         "M4 Screw"             BottomLayer M4_Screw-Footprint-1               196.850       196.850       180      "M4 Screw"                                                                       
+S5         "M4 Screw"             BottomLayer M4_Screw-Footprint-1               196.850       196.850       180      "M4 Screw"                                                                       
+S4         "M4 Screw"             BottomLayer M4_Screw-Footprint-1               196.850       196.850       180      "M4 Screw"                                                                       
+S2         "M4 Screw"             BottomLayer M4_Screw-Footprint-1               196.850       196.850       180      "M4 Screw"                                                                       
+P13        2834085-1              TopLayer    2834085-1-Footprint-1              1590.551      1462.126      0        "Conn PC Terminal Block RCP 2 POS 2.54mm Solder Thru-Hole 4A/Contact Box/Carton" 
+slot1      amperry_powerbank_slot TopLayer    amperry_powerbank_slot-Footprint-1 196.850       196.850       0        ""                                                                               
+DS7        B360A-13-F             TopLayer    SMA-DO-214AC                       1580.550      1065.464      270      "60V 3.0A SURFACE MOUNT SCHOTTKY BARRIER RECTIFIER"                              
+R75        100k                   TopLayer    res_1206                           2120.394      1290.106      180      ""                                                                               
+R63        100                    TopLayer    res_1206                           2119.213      1180.996      0        ""                                                                               
+C2         1u                     TopLayer    cap_1206                           3590.551      4150.550      0        ""                                                                               
+C1         3.3u                   TopLayer    cap_1206                           3820.551      4040.997      180      ""                                                                               
