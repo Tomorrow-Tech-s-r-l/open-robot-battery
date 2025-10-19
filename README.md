@@ -129,10 +129,3 @@ We welcome contributions!
 - ✉️ Email: sviluppo@tomorrowtech.it  
 
 ---
-
-## 📷 Gallery
-
-![Station + Powerbank + ORB](hardware/images/demo.jpg)  
-*Example setup of Amperry station, powerbank, and ORB powering a robot.*  
-
----
