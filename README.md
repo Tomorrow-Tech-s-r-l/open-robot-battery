@@ -74,7 +74,9 @@ It works with **Amperry powerbanks**, which are charged inside Amperry stations,
   - **[Bill of Materials](hardware/bom/)** - Complete BOM in Excel format
   - **[CAD Files](hardware/cad/)** - 3D mechanical models and STL files
   - **[Images](hardware/images/)** - Project images and diagrams  
-- **[ROS 2 Workspace](ros2/README.md)** - Software support packages, including the I2C manager, simulation backend, and the Infineon EZ-PD BCR driver  
+- **[Software](software/)** - Firmware support and platform tooling:
+  - **[ROS 2 Workspace](software/ros2/README.md)** - I2C manager, simulation backend, and the Infineon EZ-PD BCR driver
+  - **[Raspberry Pi Examples](software/raspberry-pi/)** - Lightweight Python helpers for hardware bring-up  
 
 ## 🧪 Raspberry Pi I2C Bring-up
 
@@ -86,7 +88,7 @@ To exercise the EZ-PD BCR interface with a Raspberry Pi:
   - Board GND → Pi GND (pin 9)
   - Optionally tie board 3.3 V reference to Pi 3V3 (pin 1) if required by your design.
 - Install the Python dependency: `pip install smbus2`.
-- Copy and run the helper script: `python3 ros2/scripts/raspi_ez_pd_demo.py`.
+- Copy and run the helper script: `python3 software/raspberry-pi/raspi_ez_pd_demo.py`.
 
 The script polls Status Register 1 once per second and prints the bitmask (datasheet section 6.3), letting you verify electrical connectivity before deploying the ROS 2 node.
 

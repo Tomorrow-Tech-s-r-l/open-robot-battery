@@ -10,7 +10,7 @@ This directory contains the ROS 2 workspace that hosts software support for the 
 ## Building
 
 ```bash
-cd ros2
+cd software/ros2
 colcon build
 source install/setup.bash
 ```
@@ -93,10 +93,10 @@ If you want to validate the hardware before running ROS:
 
 ```bash
 pip install smbus2
-python3 ros2/scripts/raspi_ez_pd_demo.py
+python3 software/raspberry-pi/raspi_ez_pd_demo.py
 ```
 
-The script opens `/dev/i2c-1`, reads Status Register 1 once per second, and prints the bit field as a binary string. A changing value indicates the Pi can reach the EZ-PD BCR device over the I²C bus.
+The script (located in `software/raspberry-pi/`) opens `/dev/i2c-1`, reads Status Register 1 once per second, and prints the bit field as a binary string. A changing value indicates the Pi can reach the EZ-PD BCR device over the I²C bus.
 
 ## Tests
 
