@@ -10,6 +10,12 @@
 ![Four-wheeled Warehouse Robot with ORB](hardware/images/ORB-four-wheeled-warehouse-robot.png)  
 *Four-wheeled warehouse robot with ORB battery module.*
 
+![Front PCB view](hardware/images/Amperry_robot_front.jpg)  
+*Front PCB view.*
+
+![Back PCB view](hardware/images/Amperry_robot_back.jpg)  
+*Back PCB view.*
+
 ---
 
 ## 📖 Introduction
@@ -74,23 +80,6 @@ It works with **Amperry powerbanks**, which are charged inside Amperry stations,
   - **[Bill of Materials](hardware/bom/)** - Complete BOM in Excel format
   - **[CAD Files](hardware/cad/)** - 3D mechanical models and STL files
   - **[Images](hardware/images/)** - Project images and diagrams  
-- **[Software](software/)** - Firmware support and platform tooling:
-  - **[ROS 2 Workspace](software/ros2/README.md)** - I2C manager, simulation backend, and the Infineon EZ-PD BCR driver
-  - **[Raspberry Pi Examples](software/raspberry-pi/)** - Lightweight Python helpers for hardware bring-up  
-
-## 🧪 Raspberry Pi I2C Bring-up
-
-To exercise the EZ-PD BCR interface with a Raspberry Pi:
-- Enable I²C with `sudo raspi-config` → Interfaces → I2C → Enable, then reboot.
-- Wire the board to the Pi header (3.3 V logic only):
-  - Board SDA → Pi GPIO2 (pin 3)
-  - Board SCL → Pi GPIO3 (pin 5)
-  - Board GND → Pi GND (pin 9)
-  - Optionally tie board 3.3 V reference to Pi 3V3 (pin 1) if required by your design.
-- Install the Python dependency: `pip install smbus2`.
-- Copy and run the helper script: `python3 software/raspberry-pi/raspi_ez_pd_demo.py`.
-
-The script polls Status Register 1 once per second and prints the bitmask (datasheet section 6.3), letting you verify electrical connectivity before deploying the ROS 2 node.
 
 ---
 
@@ -127,5 +116,12 @@ We welcome contributions!
 
 - 🌐 Website: [https://amperry.me](https://amperry.me)  
 - ✉️ Email: sviluppo@tomorrowtech.it  
+
+---
+
+## 📷 Gallery
+
+![Station + Powerbank + ORB](hardware/images/demo.jpg)  
+*Example setup of Amperry station, powerbank, and ORB powering a robot.*  
 
 ---
