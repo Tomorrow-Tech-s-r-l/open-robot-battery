@@ -253,9 +253,3 @@ Thank you for contributing to open-source hardware! 🎉
 - ✉️ Email: sviluppo@tomorrowtech.it  
 
 ---
-
-## 📷 Gallery
-
-*Example setup of Amperry station, powerbank, and ORB powering a robot.*  
-
----
