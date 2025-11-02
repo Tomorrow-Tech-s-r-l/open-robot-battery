@@ -175,6 +175,7 @@ The ORB project includes complete KiCad source files for both schematics and PCB
   - Usage in **powerbank rental systems** is exclusive to Amperry.  
   - Usage in **defense or weapons applications** requires prior approval and a special license.  
 
+- For complete license details, see [LICENSE.md](LICENSE.md).
 ---
 
 ## 🤝 Contributing
@@ -195,9 +196,18 @@ We welcome contributions from the community! Here's how you can help improve the
 
 3. **Hardware Improvements**:
    - **KiCad Project**: Modify schematics or PCB layout using the provided KiCad files
+     - Extract the CAD files from `hardware/cad/LANDER_project_REV_DATE.zip` to work on them
      - Make changes in a new branch
      - Run ERC (Electrical Rules Check) and DRC (Design Rules Check) before submitting
      - Export updated Gerber files and update the repository
+     - **Before committing**: Re-zip the CAD project folder and delete the unzipped folder
+       ```bash
+       cd hardware/cad
+       zip -r LANDER_project_REV_DATE.zip [extracted_folder_name]/
+       rm -rf [extracted_folder_name]/
+       ```
+     - Only commit the `.zip` file, not the extracted project files
+     - This keeps the repository clean and prevents versioning conflicts with KiCad temporary files
    - **Mechanical Design**: Improve casing, mounting options, or add new connector configurations
    - **Component Selection**: Suggest better components or alternatives in the BOM
 
@@ -249,7 +259,7 @@ Thank you for contributing to open-source hardware! 🎉
 
 ## 🌍 Community & Contact
 
-- 🌐 Website: [https://amperry.me](https://amperry.me)  
+- 🌐 Website: [https://tomorrowtech.it/open-robot-battery.html](https://amperry.me)  
 - ✉️ Email: sviluppo@tomorrowtech.it  
 
 ---

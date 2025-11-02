@@ -11,6 +11,13 @@ Under the following terms:
 - **Attribution** — You must give appropriate credit, provide a link to the license, and indicate if changes were made.
 - **NonCommercial** — You may not use the material for commercial purposes without prior written permission from Tomorrow Tech s.r.l.
 
+## Additional Restrictions
+- ORB is released as **open-source hardware** (license: [CC BY-NC-SA]).  
+- **Restrictions**:  
+  - The **Amperry powerbank hardware is proprietary** and must be purchased from Amperry.  
+  - Usage in **powerbank rental systems** is exclusive to Amperry.  
+  - Usage in **defense or weapons applications** requires prior approval and a special license.
+
 ## Full License Text
 The full legal text of the CC BY-NC 4.0 license is available here:  
 [https://creativecommons.org/licenses/by-nc/4.0/legalcode](https://creativecommons.org/licenses/by-nc/4.0/legalcode)
