@@ -1,0 +1,6 @@
+# Request to set output voltage and current limit
+uint16 voltage_mv          # Desired voltage in millivolts (5000, 9000, 12000, 15000, 20000)
+uint16 current_ma          # Desired current limit in milliamps
+---
+bool success              # Whether the operation was successful
+string message            # Status message or error description

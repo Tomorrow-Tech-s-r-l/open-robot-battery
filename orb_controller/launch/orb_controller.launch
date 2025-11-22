@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<launch>
+  <!-- ORB Controller Node Launch File -->
+  
+  <!-- Load default parameters from YAML file -->
+  <rosparam file="$(find orb_controller)/config/orb_controller_params.yaml" command="load" ns="orb_controller" />
+  
+  <!-- I2C Parameters (can be overridden) -->
+  <arg name="i2c_bus" default="1" doc="I2C bus number (e.g., 1 for /dev/i2c-1)" />
+  <arg name="i2c_address" default="0x08" doc="I2C device address of EZ-PD BCR chip" />
+  <arg name="publish_rate" default="10.0" doc="Rate in Hz for publishing status messages" />
+  <arg name="output" default="screen" doc="Output destination for node logs" />
+  
+  <!-- Launch ORB Controller Node -->
+  <node name="orb_controller" pkg="orb_controller" type="orb_controller_node" output="$(arg output)">
+    <param name="i2c_bus" value="$(arg i2c_bus)" />
+    <param name="i2c_address" value="$(arg i2c_address)" />
+    <param name="publish_rate" value="$(arg publish_rate)" />
+    
+    <!-- Remap topics if needed -->
+    <remap from="~power_status" to="/orb/power_status" />
+    <remap from="~pd_status" to="/orb/pd_status" />
+  </node>
+  
+</launch>

@@ -1,0 +1,11 @@
+# Request to get current status
+---
+bool success              # Whether the operation was successful
+uint16 voltage_mv         # Current voltage in millivolts
+uint16 current_ma         # Current current in milliamps
+uint32 power_mw           # Current power in milliwatts
+uint8 pd_status_raw       # Raw PD status byte
+uint8 port_status_raw     # Raw port status byte
+bool pd_active            # Whether PD is active
+uint8 pd_profile          # Current PD profile (1-5)
+string message            # Status message or error description

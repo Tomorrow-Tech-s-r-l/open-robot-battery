@@ -1,0 +1,42 @@
+# ORB Controller Configuration Parameters
+
+# I2C Interface Configuration
+i2c_bus: 1              # I2C bus number (e.g., 1 for /dev/i2c-1)
+i2c_address: 0x08       # I2C device address of EZ-PD BCR chip (CYPD3177)
+                        # Default is 0x08, but can be changed via ADDR pins on the chip
+
+# Publishing Rate
+publish_rate: 10.0      # Rate in Hz for publishing status messages
+
+# Power Delivery (PD) Profiles
+# Profile mapping for standard USB-PD voltages
+pd_profiles:
+  - profile: 1
+    voltage_mv: 5000    # 5V
+    max_current_ma: 3000
+  - profile: 2
+    voltage_mv: 9000    # 9V
+    max_current_ma: 3000
+  - profile: 3
+    voltage_mv: 12000   # 12V
+    max_current_ma: 3000
+  - profile: 4
+    voltage_mv: 15000   # 15V
+    max_current_ma: 3000
+  - profile: 5
+    voltage_mv: 20000   # 20V
+    max_current_ma: 5000
+
+# Safety Limits
+max_voltage_mv: 20000   # Maximum allowed voltage in millivolts
+max_current_ma: 5000    # Maximum allowed current in milliamps
+max_power_mw: 100000    # Maximum allowed power in milliwatts (100W)
+
+# Monitoring Thresholds
+voltage_tolerance_percent: 5    # Voltage tolerance for warning (%)
+current_warning_threshold_ma: 4500  # Current warning threshold in milliamps
+temp_warning_threshold_c: 70    # Temperature warning threshold in Celsius (if supported)
+
+# Debug Settings
+debug_mode: false       # Enable debug logging
+log_raw_registers: false # Log raw register values

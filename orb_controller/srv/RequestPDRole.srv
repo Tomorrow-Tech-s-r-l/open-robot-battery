@@ -1,0 +1,5 @@
+# Request specific PD role/profile
+uint8 profile             # PD profile number (1=5V, 2=9V, 3=12V, 4=15V, 5=20V)
+---
+bool success              # Whether the operation was successful
+string message            # Status message or error description
