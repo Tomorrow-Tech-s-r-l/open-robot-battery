@@ -16,6 +16,12 @@
 ![Back PCB view](images/Amperry_robot_back.jpg)  
 *Back PCB view.*
 
+![ORB Inverter Turtle](images/ORB-inverter-turtle.jpg)  
+*ORB inverter-turtle prototype with power inverter integration.*
+
+![ORB Development Kit](images/ORB-development-kit.png)  
+*ORB development kit prototype for mobile robot applications.*
+
 ---
 
 ## 📖 Introduction
